@@ -1,0 +1,35 @@
+{
+  "name": "speer_notes",
+  "version": "1.0.0",
+  "description": "a secure and scalable RESTful API that allows users to create, read, update, and delete notes. The application should also allow users to share their notes with other users and search for notes based on keywords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adetoyebamise/speer_notes.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "Adetoye Babalola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adetoyebamise/speer_notes/issues"
+  },
+  "homepage": "https://github.com/Adetoyebamise/speer_notes#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.2"
+  }
+}
